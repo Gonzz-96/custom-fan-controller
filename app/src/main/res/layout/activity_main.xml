@@ -22,11 +22,10 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
+    <com.gonz.mx.custom.fan.controller.view.DialView
         android:id="@+id/dialView"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:background="@android:color/darker_gray"
         app:layout_constraintTop_toBottomOf="@id/customViewLabel"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
